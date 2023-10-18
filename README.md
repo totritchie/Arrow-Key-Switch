@@ -1,4 +1,3 @@
-#ArrowKeySwitch 1.0
 ArrowKeySwitch is a utility designed to modify your keyboard's functionality, allowing the user to utilize the I, J, K, L keys as arrow keys when pressing the CapsLock key. 
 
 The project was created with the software, AutoHotkey(https://www.autohotkey.com/). It allows you to write keyboard scripts while taking minimal computer resources.
