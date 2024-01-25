@@ -25,7 +25,7 @@ Functionality:
 
 CapsLock works as expected.
 Press CapsLock with I, J, K, or L to emulate the arrow keys. Doing this will also deactivate the CapsLock function to ensure smooth typing.
-
+In V2.0 CapsLock with U is mapped to Home, CapsLock with O is End, H is mapped to Backspace and finally Capslock with ; is mapped to delete. 
 	
 Word Navigation:
 
