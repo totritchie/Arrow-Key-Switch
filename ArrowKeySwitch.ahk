@@ -7,6 +7,7 @@ CapsLock::return
 CapsLock & i::Send("{Up}")
 CapsLock & j::Send("{Left}")
 CapsLock & k::Send("{Down}")
+CapsLock & l::Send("{Right}")
 CapsLock & h::Send("{Ctrl down}{Left}{Ctrl up}")
 CapsLock & `;::Send("{Ctrl down}{Right}{Ctrl up}")
 CapsLock & u::Send("{Backspace}")
