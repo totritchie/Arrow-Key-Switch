@@ -7,13 +7,15 @@ CapsLock::return
 CapsLock & i::Send("{Up}")
 CapsLock & j::Send("{Left}")
 CapsLock & k::Send("{Down}")
-CapsLock & l::Send("{Right}")
+CapsLock & h::Send("{Ctrl down}{Left}{Ctrl up}")
+CapsLock & `;::Send("{Ctrl down}{Right}{Ctrl up}")
+CapsLock & u::Send("{Backspace}")
+CapsLock & y::Send("{Ctrl down}{Backspace}{Ctrl up}")
+CapsLock & o::Send("{Delete}")
+CapsLock & p::Send("{Ctrl down}{Delete}{Ctrl up}")
+CapsLock & n::Send("{Home}")
+CapsLock & m::Send("{End}")
 
-; New mappings as requested
-CapsLock & u::Send("{Home}")
-CapsLock & o::Send("{End}")
-CapsLock & h::Send("{Backspace}")
-CapsLock & `;::Send("{Delete}")
 
 #HotIf GetKeyState("Ctrl")
 CapsLock & i::Send("{Ctrl down}{Up}{Ctrl up}")
